@@ -10,7 +10,7 @@ const initState = {
 }
 
 export const weatherapiReducer = (state = initState, action) => {
-  switch(action) {
+  switch(action.type) {
     
     case WEATHER_API_REQUEST:
         return {
@@ -19,6 +19,7 @@ export const weatherapiReducer = (state = initState, action) => {
         }
 
     case WEATHER_API_SUCCESS:
+        console.log(action.payload, "Check Payload");
         return {
             ...state,
             data: action.payload,
