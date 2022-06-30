@@ -1,0 +1,31 @@
+.place {
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    top: 4px;
+}
+
+.find {
+    font-size: 25px;
+    position: relative;
+    left: 635px;
+    top: 4px;
+}
+
+.enter
+{
+    width: 600px; 
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 35px;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    border: 2px solid gainsboro;
+}
+
+.enter:hover{
+    border: 2.5px solid skyblue; 
+}
+textarea:focus,input:focus {
+    outline: skyblue;
+    border: 2px solid skyblue
+  }
